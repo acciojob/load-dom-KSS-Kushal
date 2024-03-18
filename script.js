@@ -1,4 +1,5 @@
 //your JS code here. If requ
+const bodyHTML = document.getElementsByTagName("body")[0];
 window.addEventListener("load", (event) => {
-	body.innerHTML = "DOM load success";
+	bodyHTML.innerHTML = "DOM load success";
 });
